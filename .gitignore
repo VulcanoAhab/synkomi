@@ -1,3 +1,20 @@
+*.sqlite3
+
+settings_dev.py
+settings_prod.py
+settings_default.py
+
+*.DS_Store
+media
+static
+specials
+data
+proxy/server_pid
+
+*.log
+*.ipynb
+.ipynb_checkpoints
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
