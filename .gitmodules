@@ -1,0 +1,6 @@
+[submodule "pyBrows"]
+	path = pyBrows
+	url = https://github.com/VulcanoAhab/pyBrows.git
+[submodule "pySteer"]
+	path = pySteer
+	url = https://github.com/VulcanoAhab/pySteer.git
