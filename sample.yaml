@@ -3,11 +3,11 @@ name:
 
 driver:
   name:
-    driver_name
+    selenium_chrome
 
 request:
   url:
-    http://sample-url.com
+    http://httbin.org/headers
   method:
     GET
 
