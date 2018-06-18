@@ -1,4 +1,5 @@
 from pySteer.api import Config
+from pySteer.routes import Augur
 from pyBrows import seleniumPhantom, seleniumChrome
 
 if __name__ == "__main__":
@@ -29,9 +30,8 @@ if __name__ == "__main__":
     browser.get(CONF.request["url"])
 
     #start interaction
-    sequence=CONF["sequence"]
-    sequence_scope=sequence["scope"]
-    pipe=sequence["pipe"]
+    Augur.setBrowser(browser)
+    Augur.process(CONF)
 
     #close browser
     browser.close()
