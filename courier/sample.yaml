@@ -7,7 +7,7 @@ driver:
 
 request:
   url:
-    http://httbin.org/headers
+    http://httpbin.org/headers
   method:
     GET
 

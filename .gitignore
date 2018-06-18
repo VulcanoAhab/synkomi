@@ -1,8 +1,5 @@
 *.sqlite3
-
-settings_dev.py
-settings_prod.py
-settings_default.py
+dev.yaml
 
 *.DS_Store
 media
