@@ -27,5 +27,11 @@ if __name__ == "__main__":
         raise Exception("[-] Only GET method working for now")
     print("[+] GET: {}".format(CONF.request["url"]))
     browser.get(CONF.request["url"])
-    print(browser.pageSource)
+
+    #start interaction
+    sequence=CONF["sequence"]
+    sequence_scope=sequence["scope"]
+    pipe=sequence["pipe"]
+
+    #close browser
     browser.close()
