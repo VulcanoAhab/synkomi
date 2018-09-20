@@ -1,5 +1,6 @@
 *.sqlite3
 dev.yaml
+notebooks
 
 *.DS_Store
 media
